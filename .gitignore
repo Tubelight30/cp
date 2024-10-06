@@ -1,0 +1,19 @@
+# Ignore binary files
+*.exe
+*.out
+*.o
+*.obj
+*.gch
+*.a
+*.so
+*.dll
+*.dylib
+
+# Ignore build directories
+/build/
+/bin/
+/Debug/
+/Release/
+/dist/
+/.venv/
+/.vscode/
