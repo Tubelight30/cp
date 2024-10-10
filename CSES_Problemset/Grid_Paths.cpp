@@ -1,10 +1,15 @@
+//!Key Points
+//! - **Pass by Reference**: The string `s` is passed by `const string& s` reference to avoid copying, reducing execution time from 78ms to 28ms.
+//! - **Optimizations**: Implemented optimizations from the Competitive Programming book:
+//!   - **Optimization 3**: Avoid unnecessary recursive calls when hitting walls.
+//!   - **Optimization 4**: General case of optimization 3 to handle more scenarios.
+
+
 #include <bits/stdc++.h>
 using namespace std;
 #define int long long int
 int ans = 0;
 bool visited[7][7];
-//! const string& s very very IMP
-//! otherwise recursive func copy the entire string everytime------>  78ms reduced to 28ms
 void solve(int r, int c, int moves,const string& s)
 {
     if(visited[r][c] ==  true)return;
