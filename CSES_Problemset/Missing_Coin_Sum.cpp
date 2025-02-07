@@ -2,6 +2,8 @@
 using namespace std;
 #define int long long int
 
+//simple logic, observational problem
+//just dry run 
 void solve()
 {
     int n;
