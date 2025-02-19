@@ -36,8 +36,6 @@ void solve(){
   else{
     cout<<sumj+sumk+v[l]<<endl;
   }
-
-
 }
 
 int32_t main(){
